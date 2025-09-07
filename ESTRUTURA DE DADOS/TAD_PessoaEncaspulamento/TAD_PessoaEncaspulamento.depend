@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1730501183 source:c:\users\decam\onedrive\Área de trabalho\tad_pessoaencaspulamento\main.c
+	<stdio.h>
+	<stdlib.h>
+	"funcoesPessoas.h"
+
+1730500741 c:\users\decam\onedrive\Área de trabalho\tad_pessoaencaspulamento\funcoespessoas.h
+
+1730501298 source:c:\users\decam\onedrive\Área de trabalho\tad_pessoaencaspulamento\funcoespessoas.c
+	<stdio.h>
+	<stdlib.h>
+	"funcoesPessoas.h"
+

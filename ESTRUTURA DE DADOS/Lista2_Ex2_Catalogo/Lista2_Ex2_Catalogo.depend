@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1734398503 source:c:\users\decam\onedrive\Área de trabalho\lista2_ex2_catalogo\catalogo.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"catalogo.h"
+
+1734398513 c:\users\decam\onedrive\Área de trabalho\lista2_ex2_catalogo\catalogo.h
+

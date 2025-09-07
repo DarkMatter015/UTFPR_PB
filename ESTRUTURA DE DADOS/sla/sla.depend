@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1734731937 source:c:\users\decam\onedrive\Área de trabalho\sla\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1734732687 source:c:\users\decam\onedrive\Área de trabalho\sla\sla.c
+	<stdio.h>
+	<stdlib.h>
+	"sla.h"
+
+1734732629 c:\users\decam\onedrive\Área de trabalho\sla\sla.h
+

@@ -1,0 +1,38 @@
+@startuml
+class Cliente {
+  - idCliente: int
+  - nome: string
+}
+
+class Produto {
+  - idProduto: int
+  - descricao: string
+  - preco: float
+}
+
+class Vendedor {
+  - idVendedor: int
+  - nome: string
+}
+
+class Pagamento {
+  - idPagamento: int
+  - valor: float
+}
+
+class Venda {
+  - idVenda: int
+  - data: date
+  - valorTotal: float
+  - cliente: Cliente
+  - vendedor: Vendedor
+  - produto: Produto
+  - pagamento: Pagamento
+}
+
+Venda "1" o-- "1" Cliente
+Venda "1" o-- "1" Vendedor
+Venda "1" o-- "1" Produto
+Venda "1" *-- "1" Pagamento
+
+@enduml

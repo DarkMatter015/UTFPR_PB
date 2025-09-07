@@ -1,0 +1,18 @@
+# depslib dependency file v1.0
+1731379884 source:c:\users\decam\onedrive\햞ea de trabalho\xadrez_ex1\lucasmatheuscamargo.c
+	<stdio.h>
+	<stdlib.h>
+	"LucasMatheusCamargo.h"
+
+1731379837 c:\users\decam\onedrive\햞ea de trabalho\xadrez_ex1\lucasmatheuscamargo.h
+
+1731379643 source:c:\users\decam\onedrive\햞ea de trabalho\xadrez_ex1\main.c
+	<stdio.h>
+	<stdlib.h>
+	"LucasMatheusCamargo.h"
+
+1731369261 c:\users\decam\onedrive\햞ea de trabalho\xadrez_ex1\lucasmatheuscamargo.c
+	<stdio.h>
+	<stdlib.h>
+	"LucasMatheusCamargo.h"
+

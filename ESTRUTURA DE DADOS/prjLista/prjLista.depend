@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1732314760 source:d:\_utfpr\disciplinas\_estruturas_de_dados_1\aulas\2024_2\2024_11_22\prjlista\itemlista.c
+	<stdio.h>
+	<stdlib.h>
+	"itemLista.h"
+
+1732315397 d:\_utfpr\disciplinas\_estruturas_de_dados_1\aulas\2024_2\2024_11_22\prjlista\itemlista.h
+
+1732315266 source:d:\_utfpr\disciplinas\_estruturas_de_dados_1\aulas\2024_2\2024_11_22\prjlista\main.c
+	<stdio.h>
+	<stdlib.h>
+	"itemLista.h"
+

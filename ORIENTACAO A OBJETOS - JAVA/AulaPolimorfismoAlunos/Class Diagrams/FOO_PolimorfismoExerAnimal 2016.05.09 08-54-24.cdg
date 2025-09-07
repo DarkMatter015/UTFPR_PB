@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ClassDiagram name="FOO_PolimorfismoExerAnimal">
+  <ClassDiagramComponents>
+    <Class name="Animal" package="br.edu.utfpr.Polimorfismo" visibility="public" isAbstract="true" xPosition="415.0" yPosition="-3.0">
+      <Fields>
+        <Field name="nome" type="String" visibility="private"/>
+        <Field name="idade" type="int" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public"/>
+        <Constructor visibility="public">
+          <Argument type="String" name="nome"/>
+          <Argument type="int" name="idade"/>
+        </Constructor>
+      </Constructors>
+      <Methods>
+        <Method name="getNome" returnType="String" visibility="public"/>
+        <Method name="setNome" returnType="void" visibility="public">
+          <Argument type="String" name="nome"/>
+        </Method>
+        <Method name="getIdade" returnType="int" visibility="public"/>
+        <Method name="setIdade" returnType="void" visibility="public">
+          <Argument type="int" name="idade"/>
+        </Method>
+        <Method name="emitirSom" returnType="String" visibility="public" isAbstract="true"/>
+        <Method name="toString" returnType="String" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="Cachorro" package="br.edu.utfpr.Polimorfismo" visibility="public" xPosition="202.0" yPosition="374.0">
+      <Fields/>
+      <Constructors>
+        <Constructor visibility="public"/>
+        <Constructor visibility="public">
+          <Argument type="String" name="nome"/>
+          <Argument type="int" name="idade"/>
+        </Constructor>
+      </Constructors>
+      <Methods>
+        <Method name="emitirSom" returnType="String" visibility="public"/>
+        <Method name="correr" returnType="String" visibility="public"/>
+        <Method name="toString" returnType="String" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="Gato" package="br.edu.utfpr.Polimorfismo" visibility="public" xPosition="427.0" yPosition="374.0">
+      <Fields/>
+      <Constructors>
+        <Constructor visibility="public"/>
+        <Constructor visibility="public">
+          <Argument type="String" name="nome"/>
+          <Argument type="int" name="idade"/>
+        </Constructor>
+      </Constructors>
+      <Methods>
+        <Method name="emitirSom" returnType="String" visibility="public"/>
+        <Method name="correr" returnType="String" visibility="public"/>
+        <Method name="toString" returnType="String" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="Macaco" package="br.edu.utfpr.Polimorfismo" visibility="public" xPosition="633.0" yPosition="374.0">
+      <Fields/>
+      <Constructors>
+        <Constructor visibility="public"/>
+        <Constructor visibility="public">
+          <Argument type="String" name="nome"/>
+          <Argument type="int" name="idade"/>
+        </Constructor>
+      </Constructors>
+      <Methods>
+        <Method name="emitirSom" returnType="String" visibility="public"/>
+        <Method name="subir" returnType="String" visibility="public"/>
+        <Method name="toString" returnType="String" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="UsandoAnimal" package="br.edu.utfpr.Polimorfismo" visibility="public" xPosition="659.0" yPosition="166.0">
+      <Fields/>
+      <Constructors/>
+      <Methods>
+        <Method name="menu" returnType="int" visibility="public" isStatic="true"/>
+        <Method name="main" returnType="void" visibility="public" isStatic="true">
+          <Argument type="String[]" name="args"/>
+        </Method>
+      </Methods>
+    </Class>
+  </ClassDiagramComponents>
+  <ClassDiagramRelations>
+    <IsRelation name="is" source="br.edu.utfpr.Polimorfismo.Macaco" target="br.edu.utfpr.Polimorfismo.Animal"/>
+    <IsRelation name="is" source="br.edu.utfpr.Polimorfismo.Cachorro" target="br.edu.utfpr.Polimorfismo.Animal"/>
+    <IsRelation name="is" source="br.edu.utfpr.Polimorfismo.Gato" target="br.edu.utfpr.Polimorfismo.Animal"/>
+  </ClassDiagramRelations>
+</ClassDiagram>

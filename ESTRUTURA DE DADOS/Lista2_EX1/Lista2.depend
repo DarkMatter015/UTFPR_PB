@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1734130550 source:c:\users\decam\onedrive\Área de trabalho\lista2\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"pedido.h"
+
+1734129691 c:\users\decam\onedrive\Área de trabalho\lista2\pedido.h
+
+1734130402 source:c:\users\decam\onedrive\Área de trabalho\lista2\pedido.c
+	<stdio.h>
+	<stdlib.h>
+	"pedido.h"
+

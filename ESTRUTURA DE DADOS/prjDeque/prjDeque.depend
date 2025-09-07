@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1721947115 source:d:\_utfpr\disciplinas\_estruturas_de_dados_1\aulas\2024_1\2024_07_25\prjdeque\itemdeque.c
+	<stdio.h>
+	<stdlib.h>
+	"itemDeque.h"
+
+1721946988 d:\_utfpr\disciplinas\_estruturas_de_dados_1\aulas\2024_1\2024_07_25\prjdeque\itemdeque.h
+
+1721947558 source:d:\_utfpr\disciplinas\_estruturas_de_dados_1\aulas\2024_1\2024_07_25\prjdeque\main.c
+	<stdio.h>
+	<stdlib.h>
+	"itemDeque.h"
+

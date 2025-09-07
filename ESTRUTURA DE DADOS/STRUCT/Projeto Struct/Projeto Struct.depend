@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1728082374 source:c:\users\decam\onedrive\Área de trabalho\projeto struct\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1728083004 source:c:\users\decam\onedrive\Área de trabalho\projeto struct\prjarraystruct.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+

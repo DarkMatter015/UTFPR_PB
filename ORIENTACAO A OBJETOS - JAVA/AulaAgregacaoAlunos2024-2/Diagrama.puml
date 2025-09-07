@@ -1,0 +1,10 @@
+@startuml
+
+
+
+Cliente --o venda
+Produto --o venda
+Vendedor --o venda
+Pagamento --* venda
+Pagamento  -- TipoPagamento
+@enduml

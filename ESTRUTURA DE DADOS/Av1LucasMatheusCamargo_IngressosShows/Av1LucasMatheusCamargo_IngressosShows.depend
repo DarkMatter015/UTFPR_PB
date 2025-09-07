@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1731971891 source:c:\users\decam\onedrive\Área de trabalho\av1lucasmatheuscamargo_ingressosshows\main.c
+	<stdio.h>
+	<stdlib.h>
+	"showIngressos.h"
+
+1731971226 c:\users\decam\onedrive\Área de trabalho\av1lucasmatheuscamargo_ingressosshows\showingressos.h
+
+1731971540 source:c:\users\decam\onedrive\Área de trabalho\av1lucasmatheuscamargo_ingressosshows\showingressos.c
+	<stdio.h>
+	<stdlib.h>
+	"showIngressos.h"
+

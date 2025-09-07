@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1732315316 source:c:\users\decam\onedrive\Área de trabalho\listaestatica\main.c
+	<stdio.h>
+	<stdlib.h>
+	"itemLista.h"
+
+1732315439 c:\users\decam\onedrive\Área de trabalho\listaestatica\itemlista.h
+	<stdio.h>
+	<stdlib.h>
+

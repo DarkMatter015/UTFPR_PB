@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ClassDiagram name="FOO_PolimorfismoExerImposto">
+  <ClassDiagramComponents>
+    <Class name="UsandoPessoaFuncionario" package="br.edu.utfpr.Principal" visibility="public" xPosition="669.0" yPosition="589.0">
+      <Fields/>
+      <Constructors/>
+      <Methods>
+        <Method name="menu" returnType="int" visibility="public" isStatic="true"/>
+        <Method name="main" returnType="void" visibility="public" isStatic="true">
+          <Argument type="String[]" name="args"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="Cliente" package="foo_polimorfismoexerimposto" visibility="public" xPosition="508.0" yPosition="277.0">
+      <Fields>
+        <Field name="codigo" type="int" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public"/>
+        <Constructor visibility="public">
+          <Argument type="int" name="codigo"/>
+        </Constructor>
+        <Constructor visibility="public">
+          <Argument type="int" name="codigo"/>
+          <Argument type="String" name="nome"/>
+        </Constructor>
+      </Constructors>
+      <Methods>
+        <Method name="getCodigo" returnType="int" visibility="public"/>
+        <Method name="setCodigo" returnType="void" visibility="public">
+          <Argument type="int" name="codigo"/>
+        </Method>
+        <Method name="toString" returnType="String" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="Funcionario" package="foo_polimorfismoexerimposto" visibility="public" isAbstract="true" xPosition="226.0" yPosition="277.0">
+      <Fields>
+        <Field name="salario" type="double" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public"/>
+        <Constructor visibility="public">
+          <Argument type="double" name="salario"/>
+        </Constructor>
+        <Constructor visibility="public">
+          <Argument type="double" name="salario"/>
+          <Argument type="String" name="nome"/>
+        </Constructor>
+      </Constructors>
+      <Methods>
+        <Method name="getSalario" returnType="double" visibility="public"/>
+        <Method name="setSalario" returnType="void" visibility="public">
+          <Argument type="double" name="salario"/>
+        </Method>
+        <Method name="calcularImposto" returnType="void" visibility="public" isAbstract="true"/>
+        <Method name="getImposto" returnType="double" visibility="public" isAbstract="true"/>
+        <Method name="toString" returnType="String" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="Gerente" package="foo_polimorfismoexerimposto" visibility="public" xPosition="354.0" yPosition="589.0">
+      <Fields>
+        <Field name="area" type="String" visibility="private"/>
+        <Field name="imposto" type="double" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public"/>
+        <Constructor visibility="public">
+          <Argument type="String" name="area"/>
+          <Argument type="double" name="salario"/>
+        </Constructor>
+        <Constructor visibility="public">
+          <Argument type="String" name="area"/>
+          <Argument type="double" name="salario"/>
+          <Argument type="String" name="nome"/>
+        </Constructor>
+      </Constructors>
+      <Methods>
+        <Method name="getArea" returnType="String" visibility="public"/>
+        <Method name="setArea" returnType="void" visibility="public">
+          <Argument type="String" name="area"/>
+        </Method>
+        <Method name="calcularImposto" returnType="void" visibility="public"/>
+        <Method name="getImposto" returnType="double" visibility="public"/>
+        <Method name="toString" returnType="String" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="Pessoa" package="foo_polimorfismoexerimposto" visibility="public" isAbstract="true" xPosition="379.0" yPosition="20.0">
+      <Fields>
+        <Field name="nome" type="String" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public"/>
+        <Constructor visibility="public">
+          <Argument type="String" name="nome"/>
+        </Constructor>
+      </Constructors>
+      <Methods>
+        <Method name="getNome" returnType="String" visibility="public"/>
+        <Method name="setNome" returnType="void" visibility="public">
+          <Argument type="String" name="nome"/>
+        </Method>
+        <Method name="toString" returnType="String" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="Vendedor" package="foo_polimorfismoexerimposto" visibility="public" xPosition="10.0" yPosition="589.0">
+      <Fields>
+        <Field name="setor" type="String" visibility="private"/>
+        <Field name="imposto" type="double" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public"/>
+        <Constructor visibility="public">
+          <Argument type="String" name="setor"/>
+          <Argument type="double" name="salario"/>
+        </Constructor>
+        <Constructor visibility="public">
+          <Argument type="String" name="setor"/>
+          <Argument type="double" name="salario"/>
+          <Argument type="String" name="nome"/>
+        </Constructor>
+      </Constructors>
+      <Methods>
+        <Method name="getSetor" returnType="String" visibility="public"/>
+        <Method name="setSetor" returnType="void" visibility="public">
+          <Argument type="String" name="setor"/>
+        </Method>
+        <Method name="calcularImposto" returnType="void" visibility="public"/>
+        <Method name="getImposto" returnType="double" visibility="public"/>
+        <Method name="toString" returnType="String" visibility="public"/>
+      </Methods>
+    </Class>
+  </ClassDiagramComponents>
+  <ClassDiagramRelations>
+    <IsRelation name="is" source="foo_polimorfismoexerimposto.Vendedor" target="foo_polimorfismoexerimposto.Funcionario"/>
+    <IsRelation name="is" source="foo_polimorfismoexerimposto.Cliente" target="foo_polimorfismoexerimposto.Pessoa"/>
+    <IsRelation name="is" source="foo_polimorfismoexerimposto.Funcionario" target="foo_polimorfismoexerimposto.Pessoa"/>
+    <IsRelation name="is" source="foo_polimorfismoexerimposto.Gerente" target="foo_polimorfismoexerimposto.Funcionario"/>
+  </ClassDiagramRelations>
+</ClassDiagram>

@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1732572814 source:d:\_utfpr\disciplinas\_estruturas_de_dados_1\aulas\2024_2\2024_11_25\prjpilha\main.c
+	<stdio.h>
+	<stdlib.h>
+	"itemPilha.h"
+
+1732572638 d:\_utfpr\disciplinas\_estruturas_de_dados_1\aulas\2024_2\2024_11_25\prjpilha\itempilha.h
+

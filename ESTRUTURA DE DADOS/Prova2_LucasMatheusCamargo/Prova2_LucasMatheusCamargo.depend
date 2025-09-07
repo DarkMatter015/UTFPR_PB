@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1734736582 source:c:\users\decam\onedrive\Área de trabalho\prova2_lucasmatheuscamargo\main.c
+	<stdio.h>
+	<stdlib.h>
+	"cartao.h"
+
+1734735335 c:\users\decam\onedrive\Área de trabalho\prova2_lucasmatheuscamargo\cartao.h
+
+1734735352 source:c:\users\decam\onedrive\Área de trabalho\prova2_lucasmatheuscamargo\cartao.c
+	<stdio.h>
+	<stdlib.h>
+	"cartao.h"
+

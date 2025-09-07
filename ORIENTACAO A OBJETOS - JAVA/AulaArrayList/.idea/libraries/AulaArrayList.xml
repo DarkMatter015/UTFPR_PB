@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="AulaArrayList">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/dist/AulaArrayList.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
