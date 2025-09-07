@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1745975517 source:c:\users\decam\onedrive\Área de trabalho\avaliacao1_lucascamargo_agendamentolives_dequeencadeado\main.c
+	<stdio.h>
+	<stdlib.h>
+	"itemDeque.h"
+
+1745975468 c:\users\decam\onedrive\Área de trabalho\avaliacao1_lucascamargo_agendamentolives_dequeencadeado\itemdeque.h
+
+1745975487 source:c:\users\decam\onedrive\Área de trabalho\avaliacao1_lucascamargo_agendamentolives_dequeencadeado\itemdeque.c
+	<stdio.h>
+	<stdlib.h>
+	"itemDeque.h"
+
