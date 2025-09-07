@@ -1,0 +1,26 @@
+# depslib dependency file v1.0
+1745359632 source:c:\users\decam\onedrive\햞ea de trabalho\estrutura de dados 2\ex2_controladatalistaenc\data.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	"Data.h"
+
+1745359613 c:\users\decam\onedrive\햞ea de trabalho\estrutura de dados 2\ex2_controladatalistaenc\data.h
+
+1745359791 source:c:\users\decam\onedrive\햞ea de trabalho\estrutura de dados 2\ex2_controladatalistaenc\itemfilaenc.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"ItemFilaEnc.h"
+	"Data.h"
+
+1745359714 c:\users\decam\onedrive\햞ea de trabalho\estrutura de dados 2\ex2_controladatalistaenc\itemfilaenc.h
+	"Data.h"
+
+1745359808 source:c:\users\decam\onedrive\햞ea de trabalho\estrutura de dados 2\ex2_controladatalistaenc\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"ItemFilaEnc.h"
+	"Data.h"
+

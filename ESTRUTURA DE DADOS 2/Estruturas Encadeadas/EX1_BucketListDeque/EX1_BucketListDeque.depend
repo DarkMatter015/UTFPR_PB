@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1745349930 source:c:\users\decam\onedrive\Área de trabalho\estrutura de dados 2\ex1_bucketlistdeque\itemdequeenc.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"ItemDequeEnc.h"
+
+1745350552 c:\users\decam\onedrive\Área de trabalho\estrutura de dados 2\ex1_bucketlistdeque\itemdequeenc.h
+
+1745350525 source:c:\users\decam\onedrive\Área de trabalho\estrutura de dados 2\ex1_bucketlistdeque\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"ItemDequeEnc.h"
+

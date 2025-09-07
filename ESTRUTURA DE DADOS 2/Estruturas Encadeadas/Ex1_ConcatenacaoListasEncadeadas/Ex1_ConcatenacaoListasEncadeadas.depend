@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1743812794 source:c:\users\decam\onedrive\Área de trabalho\estrutura de dados 2\ex1_concatenacaolistasencadeadas\main.c
+	<stdio.h>
+	<stdlib.h>
+	"listaEnc.h"
+
+1743812787 c:\users\decam\onedrive\Área de trabalho\estrutura de dados 2\ex1_concatenacaolistasencadeadas\listaenc.h
+
+1743812754 source:c:\users\decam\onedrive\Área de trabalho\estrutura de dados 2\ex1_concatenacaolistasencadeadas\listaenc.c
+	<stdio.h>
+	<stdlib.h>
+	"listaEnc.h"
+
