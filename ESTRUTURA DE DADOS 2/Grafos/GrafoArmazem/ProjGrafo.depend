@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1749600064 source:c:\users\decam\onedrive\Área de trabalho\estrutura de dados 2\grafos\grafoarmazem\grafo.c
+	<stdio.h>
+	<stdlib.h>
+	"Grafo.h"
+
+1719249538 c:\users\decam\onedrive\Área de trabalho\estrutura de dados 2\grafos\grafoarmazem\grafo.h
+
+1749600325 source:c:\users\decam\onedrive\Área de trabalho\estrutura de dados 2\grafos\grafoarmazem\main.c
+	<stdio.h>
+	<stdlib.h>
+	"Grafo.h"
+
