@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1751412112 source:c:\users\decam\onedrive\Área de trabalho\estrutura de dados 2\trucoarvorebinaria\main.c
+	<stdio.h>
+	<stdlib.h>
+	"truco.h"
+
+1751412271 c:\users\decam\onedrive\Área de trabalho\estrutura de dados 2\trucoarvorebinaria\truco.h
+
+1751412565 source:c:\users\decam\onedrive\Área de trabalho\estrutura de dados 2\trucoarvorebinaria\truco.c
+	<stdio.h>
+	<stdlib.h>
+	"truco.h"
+
