@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1748373473 source:c:\users\decam\onedrive\Área de trabalho\estrutura de dados 2\inventarioarvores\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"listaArvore.h"
+
+1748373721 c:\users\decam\onedrive\Área de trabalho\estrutura de dados 2\inventarioarvores\listaarvore.h
+

@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1747788594 source:c:\users\decam\onedrive\Área de trabalho\estrutura de dados 2\verificalistaordenada\itemlistaenc.c
+	<stdio.h>
+	<stdlib.h>
+	"itemListaEnc.h"
+
+1747788648 c:\users\decam\onedrive\Área de trabalho\estrutura de dados 2\verificalistaordenada\itemlistaenc.h
+
+1747788679 source:c:\users\decam\onedrive\Área de trabalho\estrutura de dados 2\verificalistaordenada\main.c
+	<stdio.h>
+	<stdlib.h>
+	"itemListaEnc.h"
+
