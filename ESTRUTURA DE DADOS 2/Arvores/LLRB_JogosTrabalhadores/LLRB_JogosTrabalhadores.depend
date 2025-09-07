@@ -1,0 +1,16 @@
+# depslib dependency file v1.0
+1748827663 source:c:\users\decam\onedrive\Área de trabalho\estrutura de dados 2\arvores\llrb_jogostrabalhadores\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	"ArvoreLLRB.h"
+
+1748711491 c:\users\decam\onedrive\Área de trabalho\estrutura de dados 2\arvores\llrb_jogostrabalhadores\arvorellrb.h
+
+1748713857 source:c:\users\decam\onedrive\Área de trabalho\estrutura de dados 2\arvores\llrb_jogostrabalhadores\arvorellrb.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"ArvoreLLRB.h"
+
