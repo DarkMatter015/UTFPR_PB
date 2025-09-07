@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1743813217 source:c:\users\decam\onedrive\Área de trabalho\estrutura de dados 2\ex2_inserelistaordenada\main.c
+	<stdio.h>
+	<stdlib.h>
+	"lista.h"
+
+1743813140 c:\users\decam\onedrive\Área de trabalho\estrutura de dados 2\ex2_inserelistaordenada\lista.h
+
