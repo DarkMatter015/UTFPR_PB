@@ -1,0 +1,16 @@
+# depslib dependency file v1.0
+1751665725 source:c:\users\decam\downloads\jogoadivinhacao\main.c
+	<locale.h>
+	<stdio.h>
+	<string.h>
+	<ctype.h>
+	<stdlib.h>
+	"jogo.h"
+
+1751663081 c:\users\decam\downloads\jogoadivinhacao\jogo.h
+
+1751665268 source:c:\users\decam\downloads\jogoadivinhacao\jogo.c
+	<stdio.h>
+	<stdlib.h>
+	"jogo.h"
+
