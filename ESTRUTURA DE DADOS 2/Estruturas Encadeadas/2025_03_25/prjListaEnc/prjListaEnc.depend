@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1742952612 source:c:\_dados\_utfpr\disciplinas\_estruturas_de_dados_2\aulas\2025_1\2025_03_25\prjlistaenc\main.c
+	<stdio.h>
+	<stdlib.h>
+	"itemListaEnc.h"
+
+1742952122 c:\_dados\_utfpr\disciplinas\_estruturas_de_dados_2\aulas\2025_1\2025_03_25\prjlistaenc\itemlistaenc.h
+
+1742952760 source:c:\_dados\_utfpr\disciplinas\_estruturas_de_dados_2\aulas\2025_1\2025_03_25\prjlistaenc\itemlistaenc.c
+	<stdio.h>
+	<stdlib.h>
+	"itemListaEnc.h"
+

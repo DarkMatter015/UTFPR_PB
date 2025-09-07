@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1682383826 source:c:\users\decam\onedrive\Área de trabalho\estrutura de dados 2\deque_encadeada\itemdequeenc.c
+	<stdio.h>
+	<stdlib.h>
+	"itemDequeEnc.h"
+
+1682380634 c:\users\decam\onedrive\Área de trabalho\estrutura de dados 2\deque_encadeada\itemdequeenc.h
+
+1682383828 source:c:\users\decam\onedrive\Área de trabalho\estrutura de dados 2\deque_encadeada\main.c
+	<stdio.h>
+	<stdlib.h>
+	"itemDequeEnc.h"
+

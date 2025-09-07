@@ -1,0 +1,25 @@
+# depslib dependency file v1.0
+1743552425 source:c:\users\decam\onedrive\햞ea de trabalho\empilhaenc\empilhaenc.c
+	<stdio.h>
+	<stdlib.h>
+	"empilhaEnc.h"
+
+1743552427 c:\users\decam\onedrive\햞ea de trabalho\empilhaenc\empilhaenc.h
+
+1743552841 source:c:\users\decam\onedrive\햞ea de trabalho\empilhaenc\main.c
+	<stdio.h>
+	<stdlib.h>
+	"empilhaEnc.h"
+
+1743552425 source:c:\users\decam\onedrive\햞ea de trabalho\estrutura de dados 2\empilhaenc\empilhaenc.c
+	<stdio.h>
+	<stdlib.h>
+	"empilhaEnc.h"
+
+1743552427 c:\users\decam\onedrive\햞ea de trabalho\estrutura de dados 2\empilhaenc\empilhaenc.h
+
+1743552945 source:c:\users\decam\onedrive\햞ea de trabalho\estrutura de dados 2\empilhaenc\main.c
+	<stdio.h>
+	<stdlib.h>
+	"empilhaEnc.h"
+
