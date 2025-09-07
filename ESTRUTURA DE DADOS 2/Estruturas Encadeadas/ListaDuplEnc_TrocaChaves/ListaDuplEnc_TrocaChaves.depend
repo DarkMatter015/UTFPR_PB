@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1748456625 source:c:\users\decam\onedrive\Área de trabalho\estrutura de dados 2\listaduplenc_trocachaves\itemlistaduplenc.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	"itemListaDuplEnc.h"
+
+1748456611 c:\users\decam\onedrive\Área de trabalho\estrutura de dados 2\listaduplenc_trocachaves\itemlistaduplenc.h
+
+1748456648 source:c:\users\decam\onedrive\Área de trabalho\estrutura de dados 2\listaduplenc_trocachaves\main.c
+	<stdio.h>
+	<stdlib.h>
+	"itemListaDuplEnc.h"
+

@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1748371262 source:c:\users\decam\onedrive\Área de trabalho\estrutura de dados 2\listachamadoscrud\filaenc.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"filaEnc.h"
+
+1748371301 c:\users\decam\onedrive\Área de trabalho\estrutura de dados 2\listachamadoscrud\filaenc.h
+
+1748371301 source:c:\users\decam\onedrive\Área de trabalho\estrutura de dados 2\listachamadoscrud\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"filaEnc.h"
+

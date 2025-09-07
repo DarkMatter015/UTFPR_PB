@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1748457166 source:c:\users\decam\onedrive\Área de trabalho\estrutura de dados 2\listaduplenc_agendatelefonica\itemlistaduplenc.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"itemListaDuplEnc.h"
+
+1748457373 c:\users\decam\onedrive\Área de trabalho\estrutura de dados 2\listaduplenc_agendatelefonica\itemlistaduplenc.h
+
