@@ -1,0 +1,186 @@
+*{
+   margin: 0;
+   padding: 0;
+}
+
+body{
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* header, nav, h1{
+   border: solid 1px #f00;
+} */
+
+.navbar{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  
+}
+
+.navbar .logo a{
+   text-decoration: none;
+   color:  #464646;
+   font-size: 1.5rem; /*16 * 1.5 = 24px*/
+   
+}
+
+.navbar-nav{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+ 
+}
+
+
+.navbar-nav li{
+   display: inline;
+   padding: 10px;
+}
+
+.navbar-nav a{
+   text-decoration: none;
+   color: #464646;
+   padding: 10px;
+}
+
+.navbar-nav a:hover{
+   background-color: #555 ;
+   color: #fff;
+   border-radius: 5px;
+}
+
+/* banner */
+.banner{
+   /* border: solid 2px #f00; */
+   height: 50vh;
+   background: url('../img/img-banner.jpg') center / cover no-repeat fixed;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   color: #fff;
+   position: relative;
+
+}
+
+/*estilo banner*/
+ 
+.banner h1, .banner p, .banner a{
+   text-shadow: 2px 2px 5px rgba(0, 0, 0, .7);
+   z-index: 1;
+}
+
+.banner h1 {
+   font-size: 2.5rem;
+   margin-bottom: 10px;
+}
+.banner p {
+   font-size: 1.2rem;
+   margin-bottom: 20px;
+}
+.banner a {
+   background-color: #ff6600;
+   color: #fff;
+   border: none;
+   padding: 12px 20px;
+   font-size: 1.1rem;
+   border-radius: 5px;
+   text-decoration: none;
+}
+ 
+.banner::before{
+   content: '';
+   position: absolute;
+   top:0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+ background-color: rgba(0, 0, 0, .5);   
+
+}
+
+/* css do grid */
+
+.gallery{
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   grid-template-rows: repeat(4, 300px);
+   gap: 15px;
+   width: 98%;
+   margin: 0 auto;
+   /* border-radius: 10px; */
+   margin-top: 10px;
+
+}
+
+.gallery > div{
+   /* border: solid 1px #f00; */
+   border-radius: 10px;
+   position: relative;
+}
+
+.gallery img{
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+   border-radius: 10px;
+
+}
+
+.grid-column-2{
+   grid-column: span 2;
+}
+
+.grid-row-2{
+   grid-row: span 2;
+}
+
+
+/*CSS para grid*/
+/* Texto dentro da sobreposição */
+.overlay-text {
+   font-size: 1rem;
+   position: absolute;
+   bottom: 0;
+   background-color: rgba(0, 0, 0, .5);
+   padding: 10px;
+   margin: 0;
+   color: #fff;
+}
+
+/* Botão dentro da sobreposição */
+.overlay-link{
+   position: absolute;
+   top: 20px;
+   right: 10px;
+}
+.overlay-link a {
+   padding: 10px 15px;
+   font-size: 16px;
+   background-color:#fff;
+   color: rgb(8, 8, 8);
+   border-radius: 5px;
+   text-decoration: none;
+}
+
+.overlay-link a:hover {
+   padding: 10px 20px;
+   background-color: #7d7b7a;
+}
+
+.overlay{
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   /* opacity: 1; */
+   visibility: hidden;
+}
+
+.gallery > div:hover .overlay{
+   visibility: visible;
+}

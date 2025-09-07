@@ -1,0 +1,210 @@
+.fw-bold {
+    color: whitesmoke;
+    font-family: var(--title-font);
+}
+
+.lead {
+    color: var(--background-color);
+}
+
+h1, h2 {
+    color: var(--primary-color);
+}
+
+h3, h4{
+    font-family: var(--main-font);
+    color: var(--secondary-color);
+}
+
+body {
+    font-family: var(--title-font);
+}
+
+/* Banner Section */
+.banner {
+  position: relative;
+  width: 100vw;
+  min-height: 100vh;
+  background: url('../../../public/assets/banner-image.jpg') center center/cover no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.banner-overlay {
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.banner-content {
+  position: relative;
+  z-index: 2;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+  .banner-content h1 {
+    font-size: 2rem;
+  }
+  .banner-content p {
+    font-size: 1rem;
+  }
+  .destaques {
+    flex-direction: column;
+    justify-items: center;
+    }
+    .produtos {
+        flex-direction: column;
+        justify-items: center;
+    }
+}
+
+
+.container-produtos {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  padding: 20px;
+  gap: 1rem;
+}
+
+.card-image > div {
+    display: none;
+}
+
+.card-image:hover > img {
+    transform: scale(0.9);
+    transition: all 0.3s ease-in-out;
+}
+
+.card-image:hover > div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    bottom: 0;
+    width: 100%;
+    
+}
+
+.produtos {
+    display: grid;
+}
+
+.destaques {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+}
+
+.destaques > a {
+    width: fit-content;
+}
+
+
+
+.card-destaque {
+    position: relative;
+    min-width: 300px;
+    min-height: 300px;
+    margin: 1rem;
+    border-radius: 5px;
+    transition: all 0.3s ease-in-out;
+}
+
+.card-destaque:nth-child(1) {
+    background: url('../../../public/assets/destaques/acessorios-banner.jpg') center center/cover no-repeat;
+}
+.card-destaque:nth-child(2) {
+    background: url('../../../public/assets/destaques/cordas-banner.jpg') center center/cover no-repeat;
+}
+.card-destaque:nth-child(3) {
+    background: url('../../../public/assets/destaques/teclas-banner.jpg') center center/cover no-repeat;
+}
+.card-destaque:nth-child(4) {
+    background: url('../../../public/assets/destaques/sopro-banner.jpg') center center/cover no-repeat;
+}
+.card-destaque:nth-child(5) {
+    background: url('../../../public/assets/destaques/infantil-banner.jpg') center center/cover no-repeat;
+}
+.card-destaque:nth-child(6) {
+    background: url('../../../public/assets/destaques/percussao-banner.jpg') center center/cover no-repeat;
+}
+
+
+.destaque-nome {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #fff;
+    transition: all 0.3s ease-in-out;
+}
+.destaque-overlay {
+    display: none;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    transition: all 0.3s ease-in-out;
+}
+
+.card-destaque:hover {
+    transform: scale(1.03);
+    transition: all 0.3s ease-in-out;
+    
+    .destaque-overlay {
+        display: block;
+        background: rgba(0, 0, 0, 0.5); 
+        transition: all 0.3s ease-in-out;
+    }
+
+    .destaque-nome{
+        display: block;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 1.5rem;
+        text-align: center;
+        transition: all 0.3s ease-in-out;
+    }
+}
+
+
+
+.marcas-banner {
+    position: relative;
+    width: 100vw;
+    min-height: 100vh;
+    background: url('../../../public/assets/marcas/marcas-banner.jpg') center center/cover no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.carroussel-marcas {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    justify-items: center;      /* Centraliza os cards nas colunas */
+    align-items: center;        /* Centraliza verticalmente (opcional) */
+    gap: 1rem;
+
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    max-width: 1000px;
+}
+
+.carroussel-marcas > .card {
+    width: 150px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.carroussel-marcas > .card > img {
+    width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+}

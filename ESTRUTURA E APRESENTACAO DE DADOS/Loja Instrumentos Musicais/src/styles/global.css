@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+:root {
+    --primary-color: #3E2723;
+    --secondary-color: #A97454;
+    --accent-color: #D9C5B2;
+    --text-color: #2D1E1E;
+    --background-color: #F7F5F2;
+
+    --title-font: 'Sora', sans-serif;
+    --main-font: 'Inter', sans-serif;
+    --font-size: 1rem;
+}
+
+body {
+    overflow-x: hidden;
+    font-family: var(--title-font);
+}

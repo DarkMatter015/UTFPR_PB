@@ -1,0 +1,301 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* header, nav {
+    border: #ff0000 1px solid;
+} */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 10px 20px;
+}
+
+.navbar .logo a{
+    color: #696969;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+.navbar-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-nav li {
+    display: inline;
+    margin: 10px;
+}
+
+.navbar-nav a {
+    text-decoration: none;
+    color: #696969;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.navbar-nav a:hover {
+    background-color: black;
+    color: white;
+    transition: 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.banner {
+    height: 50vh;
+    background: url("../img/img-banner.jpg") center / cover no-repeat fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    color: #ffffff;
+
+    position: relative;
+}
+
+/*estilo banner*/
+ 
+.banner h1, .banner p, .banner a{
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+    z-index: 1;
+ }
+ .banner h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+ }
+ .banner p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+ }
+ .banner a {
+    background-color: #ff6600;
+    color: #fff;
+    border: none;
+    padding: 12px 20px;
+    font-size: 1.1rem;
+    border-radius: 5px;
+    text-decoration: none;
+ }
+  
+ /*CSS para grid*/
+ /* Texto dentro da sobreposição */
+ .overlay-text {
+    font-size: 1rem;
+    position: absolute;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, .5);
+    padding: 10px;
+    margin: 0;
+ }
+ 
+ /* Botão dentro da sobreposição */
+ .overlay-link{
+    position: absolute;
+    top: 20px;
+    right: 10px;
+ }
+ .overlay-link a {
+    padding: 10px 15px;
+    font-size: 16px;
+    background-color:#fff;
+    color: rgb(8, 8, 8);
+    border-radius: 5px;
+    text-decoration: none;
+ }
+ 
+ .overlay-link a:hover {
+    padding: 10px 20px;
+    background-color: #7d7b7a;
+ }
+
+.banner ::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+    background-color: rgba(0, 0, 0, 0.150);
+}
+
+/* CSS do Grid */
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 300px);
+    gap: 15px;
+    width: 80%;
+    margin: 0 auto;
+    
+}
+
+.gallery > div {
+    border: solid 5px red;
+    
+}
+
+.gallery img {
+    width: 100%;
+    height: 100%;
+}
+
+/* ATIVIDADE SECAO */
+.destaques {
+    display: flex;
+    justify-content: space-between;
+
+    margin: 10px;
+    padding: 5px;
+    gap: 2rem;
+}
+
+/* sabores_bebidas */
+.destaques > .sabores_bebidas h1{
+    font-size: 2rem;
+    color: #ff6600;
+    margin-bottom: 10px;
+}
+
+.destaques > .sabores_bebidas p:nth-child(2){
+    color: #000;
+    font-weight: bold;
+}
+
+.destaques > .sabores_bebidas p {
+    font-size: 1rem;
+    color: #696969;
+    margin-bottom: 20px;
+}
+
+/* chefs */
+.destaques > .chefs {
+    border: #696969 solid 1px;
+    border-radius: 10px;
+    padding: 20px;
+
+    min-width: 300px;
+}
+
+.destaques > .chefs h2 {
+    font-size: 1.5rem;
+    color: #696969;
+    margin-bottom: 20px;
+}
+
+.destaques > .chefs > div{
+    display: flex;
+    align-items: center;
+}
+
+.destaques > .chefs > div > img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+.destaques > .chefs > div > div> p:nth-child(1) {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #000;
+}
+
+.destaques > .chefs > div > div > p:nth-child(2) {
+    font-size: 0.5rem;
+    color: #7d7b7a;
+}
+
+
+/* Fundo Destaques */
+.destaques .fundo_destaques {
+    max-width: 400px;
+    min-height: 400px;
+}
+
+.destaques .fundo_destaques > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+
+
+
+
+/* Estiliza o contêiner principal */
+.fundo_destaques {
+    position: relative; /* Necessário para posicionar o conteúdo sobreposto */
+    display: inline-block; /* Faz o contêiner se ajustar ao tamanho da imagem */
+    overflow: hidden; /* Garante que nada ultrapasse os limites */
+}
+
+/* Estiliza a imagem */
+.fundo_destaques img {
+    display: block; /* Remove espaço abaixo da imagem */
+    width: 100%; /* A imagem ocupa toda a largura do contêiner */
+    height: auto; /* Mantém a proporção */
+}
+
+/* Estiliza o conteúdo sobreposto */
+.conteudo-sobreposto {
+    position: absolute; /* Posiciona sobre a imagem */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6); /* Fundo semitransparente */
+    color: white; /* Cor do texto */
+    display: flex; /* Centraliza o conteúdo */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0; /* Inicialmente invisível */
+    transition: opacity 0.3s ease; /* Transição suave */
+}
+
+/* Mostra o conteúdo ao passar o mouse */
+.fundo_destaques:hover .conteudo-sobreposto {
+    opacity: 1; /* Torna visível no hover */
+}
+
+/* Estiliza o título */
+.conteudo-sobreposto h1 {
+    font-size: 2rem;
+    margin: 0.5rem 0;
+}
+
+/* Estiliza o texto descritivo */
+.conteudo-sobreposto p {
+    font-size: 1rem;
+    margin: 0.5rem 0;
+    text-align: center;
+    padding: 0 20px;
+}
+
+/* Estiliza o botão */
+.conteudo-sobreposto .botao {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #3498db; /* Cor do botão */
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+
+/* Efeito hover no botão */
+.conteudo-sobreposto .botao:hover {
+    background: #2980b9; /* Cor mais escura no hover */
+}

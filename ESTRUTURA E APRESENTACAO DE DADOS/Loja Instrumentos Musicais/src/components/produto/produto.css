@@ -1,0 +1,31 @@
+.product-image {
+    height: 400px;
+    background-color: #d3d3d3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.banner {
+    height: 100px;
+    background-color: #d3d3d3;
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.price-discount {
+    color: green;
+    font-weight: bold;
+}
+.price-original {
+    text-decoration: line-through;
+    color: red;
+}
+
+@media screen and (max-width: 768px) {
+    .container h2 {
+        margin-top: 1rem;
+    }
+    
+}

@@ -1,0 +1,15 @@
+.footer-section {
+    background-color: var(--background-color);
+    color: var(--primary-color);
+    padding: 1rem;
+}
+
+.footer-section .icon {
+    width: 50px
+}
+
+@media (max-width: 576px) {
+    .footer-section > .container {
+        flex-direction: column;
+    }
+}

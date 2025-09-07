@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RiffHouse</title>
+    <link rel="shortcut icon" href="../../../public/favicon.ico" type="image/x-icon">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
+    />
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="../../styles/global.css">
+    <link rel="stylesheet" href="../../components/navbar/navbar.css">
+    <link rel="stylesheet" href="../../components/footer/footer.css">
+</head>
+<body>
+    <header id="navbar-container"></header>
+
+    <main>
+        
+        <div id="dynamic-content"></div>
+        
+        <div id="home-component">
+            <section class="banner d-flex align-items-center justify-content-center text-center">
+                <div class="banner-overlay w-100 h-100 position-absolute top-0 start-0"></div>
+                <div class="banner-content position-relative text-white">
+                    <h1 class="display-3 fw-bold">O Som Que Te Inspira</h1>
+                    <p class="lead">Instrumentos musicais de qualidade para músicos apaixonados. Encontre o seu som na RiffHouse.</p>
+                </div>
+            </section>
+            
+            <section class="container d-flex mt-3 produtos" id="produtos">
+                <div>
+                    <h2>Destaques da Loja</h2>
+                    <h3 class="ms-2">Confira nossos Melhores Produtos!</h3>
+                </div>
+                <div class="container-produtos">
+                    <div class="card">
+                        <div class="card-image position-relative">
+                            <img src="../../../public/assets/produtos/guitar1.webp" alt="" class="card-img-top">
+                            <div class="position-absolute">
+                                <a href="#" data-component="produto" class="w-100"><button type="button" class="btn btn-primary w-100">Comprar</button></a>
+                                <a href="" class="w-100"><button type="button" class="btn btn-secondary w-100">+ Adicionar no Carrinho</button></a>
+                            </div>
+                        </div>
+                        <div class="card-body text-center">
+                            <div class="d-flex align-items-center justify-content-center">
+                            <div class="text-warning">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                            </div>
+                            <span class="text-muted small">(123)</span>
+                        </div>
+                            <h4 class="card-title">Produto</h4>
+                            <h4 class="card-subtitle text-success">R$ XX,xx <small>à vista</small></h4>
+                            <p class="text-body-secondary small">5X de R$ XX,XX sem juros</p>
+                        </div>
+            
+                    </div>
+                    <div class="card">
+                        <div class="card-image position-relative">
+                            <img src="../../../public/assets/produtos/guitar1.webp" alt="" class="card-img-top">
+                            <div class="position-absolute">
+                                <a href="" class="w-100"><button type="button" class="btn btn-primary w-100">Comprar</button></a>
+                                <a href="" class="w-100"><button type="button" class="btn btn-secondary w-100">+ Adicionar no Carrinho</button></a>
+                            </div>
+                        </div>
+                        <div class="card-body text-center">
+                            <div class="d-flex align-items-center justify-content-center">
+                            <div class="text-warning">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                            </div>
+                            <span class="text-muted small">(123)</span>
+                        </div>
+                            <h4 class="card-title">Produto</h4>
+                            <h4 class="card-subtitle text-success">R$ XX,xx <small>à vista</small></h4>
+                            <p class="text-body-secondary small">5X de R$ XX,XX sem juros</p>
+                        </div>
+            
+                    </div>
+                    <div class="card">
+                        <div class="card-image position-relative">
+                            <img src="../../../public/assets/produtos/guitar1.webp" alt="" class="card-img-top">
+                            <div class="position-absolute">
+                                <a href="" class="w-100"><button type="button" class="btn btn-primary w-100">Comprar</button></a>
+                                <a href="" class="w-100"><button type="button" class="btn btn-secondary w-100">+ Adicionar no Carrinho</button></a>
+                            </div>
+                        </div>
+                        <div class="card-body text-center">
+                            <div class="d-flex align-items-center justify-content-center">
+                            <div class="text-warning">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                            </div>
+                            <span class="text-muted small">(123)</span>
+                        </div>
+                            <h4 class="card-title">Produto</h4>
+                            <h4 class="card-subtitle text-success">R$ XX,xx <small>à vista</small></h4>
+                            <p class="text-body-secondary small">5X de R$ XX,XX sem juros</p>
+                        </div>
+            
+                    </div>
+                    <div class="card">
+                        <div class="card-image position-relative">
+                            <img src="../../../public/assets/produtos/guitar1.webp" alt="" class="card-img-top">
+                            <div class="position-absolute">
+                                <a href="" class="w-100"><button type="button" class="btn btn-primary w-100">Comprar</button></a>
+                                <a href="" class="w-100"><button type="button" class="btn btn-secondary w-100">+ Adicionar no Carrinho</button></a>
+                            </div>
+                        </div>
+                        <div class="card-body text-center">
+                            <div class="d-flex align-items-center justify-content-center">
+                            <div class="text-warning">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                            </div>
+                            <span class="text-muted small">(123)</span>
+                        </div>
+                            <h4 class="card-title">Produto</h4>
+                            <h4 class="card-subtitle text-success">R$ XX,xx <small>à vista</small></h4>
+                            <p class="text-body-secondary small">5X de R$ XX,XX sem juros</p>
+                        </div>
+            
+                    </div>
+                </div>
+            </section>
+            
+            <section class="container">
+                <div class="destaques">
+            
+                        <div class="card-destaque">
+                            <a href="">
+                            <div class="destaque-overlay"></div>
+                            <h3 class="destaque-nome">Acessórios</h3>
+                            </a>
+                        </div>
+            
+                        <div class="card-destaque">
+                            <a href="">
+                            <div class="destaque-overlay"></div>
+                            <h3 class="destaque-nome">Cordas</h3>
+                            </a>
+                        </div>
+                        <div class="card-destaque">
+                            <a href="">
+                            <div class="destaque-overlay"></div>
+                            <h3 class="destaque-nome">Teclas</h3>
+                            </a>
+                        </div>
+                        <div class="card-destaque">
+                            <a href="">
+                            <div class="destaque-overlay"></div>
+                            <h3 class="destaque-nome">Sopro</h3>
+                            </a>
+                        </div>
+                        <div class="card-destaque">
+                            <a href="">
+                            <div class="destaque-overlay"></div>
+                            <h3 class="destaque-nome">Infantil</h3>
+                            </a>
+                        </div>
+                        <div class="card-destaque">
+                            <a href="">
+                            <div class="destaque-overlay"></div>
+                            <h3 class="destaque-nome">Percussão</h3>
+                            </a>
+                        </div>
+                </div>
+            </section>
+            <section id="marcas">
+                <div class="marcas-banner d-flex align-items-center justify-content-center text-center">
+                    <div class="banner-overlay w-100 h-100 position-absolute top-0 start-0"></div>
+                    <div class="banner-content position-relative text-white">
+                        <h1 class="display-3 fw-bold">As melhores marcas estão aqui!</h1>
+                        <p class="lead">São mais de 12 marcas para escolher.</p>
+                    </div>
+                </div>
+                <div class="carroussel-marcas gap-1">
+                    <div class="card">
+                        <img src="../../../public/assets/marcas/Fender_logo.png" alt="" class="card-img-top">
+                    </div>
+                    <div class="card">
+                        <img src="../../../public/assets/marcas/Giannini-logo.png" alt="" class="card-img-top">
+                    </div>
+                    <div class="card">
+                        <img src="../../../public/assets/marcas/gibson-logo.png" alt="" class="card-img-top">
+                    </div>
+                    <div class="card">
+                        <img src="../../../public/assets/marcas/ibanez-logo.png" alt="" class="card-img-top">
+                    </div>
+                    <div class="card">
+                        <img src="../../../public/assets/marcas/tagima-logo.png" alt="" class="card-img-top">
+                    </div>
+                    <div class="card">
+                        <img src="../../../public/assets/marcas/yamaha-logo.jpg" alt="" class="card-img-top">
+                    </div>
+                </div>
+            </section>
+        </div>
+
+    </main>
+
+    <footer id="footer-container" class="footer-section">
+    </footer>
+
+
+<script src="../../js/main.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
+<script src="https://kit.fontawesome.com/ba935639dd.js" crossorigin="anonymous"></script>
+
+</body>
+</html>

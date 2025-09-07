@@ -1,0 +1,30 @@
+[
+    {
+        "id": 1,
+        "nome": "Mecânico Pro X",
+        "marca": "Corsair",
+        "preco": "R$ 399,90",
+        "imagem": "teclado2-produto-removebg-preview.png"
+    },
+    {
+        "id": 2,
+        "nome": "G502 Lightspeed",
+        "marca": "Logitech",
+        "preco": "R$ 599,90",
+        "imagem": "mouse2-produto-removebg-preview.png"
+    },
+    {
+        "id": 3,
+        "nome": "Cloud II",
+        "marca": "HyperX",
+        "preco": "R$ 549,90",
+        "imagem": "headset2-produto-removebg-preview.png"
+    },
+    {
+        "id": 4,
+        "nome": "SteelSeries QcK Prism",
+        "marca": "SteelSeries",
+        "preco": "R$ 249,90",
+        "imagem": "mousepad1-produto.png"
+    }
+]
