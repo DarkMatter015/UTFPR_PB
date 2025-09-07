@@ -1,0 +1,37 @@
+union
+intersect
+except
+select distinct
+média (average): avg
+mínimo (minimum): min
+máximo (maximum): max
+total (total): sum
+contagem (count): count
+order by
+group by
+where
+having
+is null
+is not null
+in
+not in
+between
+inner join
+left/right/full join
+auto junção
+
+dateadd()
+datediff()
+getdate()
+datepart()
+datename()
+
+cast()
+convert()
+
+ltrim()
+rtrim()
+space()
+stuff()
+substring()
+coalesce()
